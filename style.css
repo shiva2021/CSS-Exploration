@@ -1,0 +1,154 @@
+body{
+  height:210vh;
+  font-size: 16px;
+}
+
+.container{
+  display: flex;
+  padding: 2rem 0;
+}
+
+#title1{
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  border: 3px solid black;
+  position:relative;
+}
+
+#title1--child{
+  border: 3px solid green;
+  width: 300px;
+  top:0;
+  position: sticky;
+}
+
+#title2{
+  max-width: 500px;
+  margin: auto;
+  border: 3px solid red;
+}
+
+.container2{
+  max-width: 300px;
+  margin: auto;
+  position :sticky;
+  height: 300px;
+  top:5rem;
+  border: 5px solid saddlebrown;
+}
+
+.container2--child{
+  position: absolute;
+  border: 5px solid slateblue;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sticky-class{
+  font-size: 16px;
+}
+
+.container3{
+  margin: 2rem auto;
+  width: 50%;
+  border: 5px solid black;
+}
+
+.container3--child{
+  border: 5px solid magenta;
+  font-size: 1rem;
+  overflow-y: scroll;
+  max-height: 15rem;
+  max-width: 20rem;
+  margin: 2rem auto;
+  text-align: justify;
+}
+
+h1{
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.container--parent{
+  border: 5px solid black;
+  outline: dashed orange 5px;
+  margin: 1rem;
+  outline-offset: 5px;
+}
+
+.container--parent--h1{
+  text-align: center;
+}
+
+.container4{
+  border: 5px solid blue;
+  max-width: 50rem;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.container4-child1{
+  text-decoration: line-through;
+  border: 5px dotted magenta;
+  max-width: 15rem;
+  margin: 5rem auto;
+}
+
+.container4-child2{
+  border: 5px solid tomato;
+  outline: 3px solid red;
+  outline-offset: 15px;
+  max-width: 15rem;
+  margin: 5rem auto;
+  text-decoration: overline;
+}
+
+.container4-child--element1{
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:justify;
+}
+
+
+.container5{
+  border: 5px solid #111111;
+  margin: auto;
+  max-width: 50rem;
+}
+
+.container5-child{
+  border: 5px solid red;
+  max-width: 20rem;
+  max-height: 20rem;
+  margin:2rem auto;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.container5-child--heading{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2em;
+  font-weight: 300;
+  text-align: left;
+  padding:0;
+}
+
+.container5-child--content{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+  text-align: justify;
+}
+
+.container5-child--content-span1{
+  font-style: oblique;
+}
+
+
+.container5-child--content-span2-cap{
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 300;
+  font-size: 2em;
+}
